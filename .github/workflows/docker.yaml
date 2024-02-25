@@ -20,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: maximov777/shortme3:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/shortme3:latest
